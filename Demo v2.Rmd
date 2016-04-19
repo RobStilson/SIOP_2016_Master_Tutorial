@@ -1,0 +1,25 @@
+---
+title: "Demo v2"
+author: "Rob S."
+date: "April 16, 2016"
+output:
+  html_document:
+    toc: true
+    theme: united
+---
+
+#Summary
+
+```{r, echo=FALSE}
+#Here I'm creating a summary for the data set `cars`
+summary(cars)#summary() is a command in base R and the `cars` data set is also native to base R
+```
+
+Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+
+```{r, echo=TRUE}
+#Here I'm creating a summary for the data set `cars`
+summary(cars)#summary() is a command in base R and the `cars` data set is also native to base R
+```
+
+Note that the `echo = TRUE` parameter was added to the code chunk to print the R code that generated the plot.
